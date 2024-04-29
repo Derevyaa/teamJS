@@ -1,4 +1,7 @@
-// Функція для отримання даних з API
+// Функція для отримання даних з API 123
+
+
+//TO DO implement parametrs ......
 function getDataFromAPI(endpoint, params, authorization) {
     return fetch(endpoint, {
         method: 'GET',
@@ -46,3 +49,5 @@ function modifyDataInAPI(endpoint, data, authorization) {
     })
         .catch(error => console.error('Помилка модифікації даних в API:', error));
 }
+
+
