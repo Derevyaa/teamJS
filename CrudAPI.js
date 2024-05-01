@@ -1,5 +1,5 @@
 // Функція для виконання запиту до API з обробкою помилок
-async function executeAPIRequest(endpoint, method, data, authorization) {
+async function executeAPIRequest(endpoint, method, data, params, authorization) {
     // Об'єкт налаштувань для запиту
     let requestOptions = {
         method: method,
